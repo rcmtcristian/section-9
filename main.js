@@ -1,13 +1,9 @@
-
-const cart = document.getElementById('cart');
-
+const cart = document.getElementById('cart')
 
 function added(food){
-
-  const element = document.createElement('div')
-  element.innerText = food ;
-  cart.appendChild(element)
-
+  const item = document.createElement('div')
+  item.innerText = food
+  cart.appendChild(item)
 }
 
 function clearIt(){
