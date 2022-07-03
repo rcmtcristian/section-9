@@ -10,6 +10,6 @@ function added(food){
 
 }
 
-function clear(){
+function clearIt(){
   cart.innerHTML = "";
 }
